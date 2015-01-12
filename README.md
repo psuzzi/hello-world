@@ -6,7 +6,7 @@ Hi Humans!
 Patrik here, I like Java, Eclipse and Javascript. 
 
 This document is a quick reference to understand Git for this project. 
-If you need extended information, please read : docs/index.textile
+If you need extended information, please read : [index.textile](docs/index.textile)
 
 
 Do Hello world https://guides.github.com/activities/hello-world/
