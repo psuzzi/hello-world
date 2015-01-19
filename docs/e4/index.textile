@@ -1,0 +1,7 @@
+h1. E4 Application
+Download Eclipse e4 for committers
+Download E4 tools
+Download windows builder
+Create E4 project
+Add User interface
+commit on github
