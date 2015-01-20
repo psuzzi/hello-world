@@ -2,5 +2,6 @@ h1. Hello, Git Docs!
 
 h2. Document index
 
-"batch":batch/index.textile
-"e4":e4/index.textile
+"ant":ant/index.textile - ANT for build
+"batch":batch/index.textile - msdos bat files
+"Eclipse e4":e4/index.textile - Eclipse E4 RCP Application
