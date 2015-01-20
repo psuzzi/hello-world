@@ -4,4 +4,6 @@ h2. Document index
 
 "ant":ant/index.textile - ANT for build
 "batch":batch/index.textile - msdos bat files
-"Eclipse e4":e4/index.textile - Eclipse E4 RCP Application
+"birt":birt/BIRT-reporting.textile - Business Intelligence and Reporting Tool
+"documentation":documentation/index.textile : tools to write documentation
+"e4 (Eclipse)":e4/index.textile - Eclipse E4 RCP Application
