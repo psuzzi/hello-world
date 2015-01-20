@@ -4,4 +4,5 @@ This "script":get-win-os-type-and-programs-folder-for-32bit.bat check if the sys
 As example :
 * for win 64 bit returns %programfiles(x86)%
 * for win 32 bit returns %programfiles%
+
 !img/get-win-os-type-and-programs-folder-for-32-bit.png!
