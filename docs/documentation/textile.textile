@@ -1,0 +1,4 @@
+h1. Textile
+
+"description on wikipedia":http://en.wikipedia.org/wiki/Textile_%28markup_language%29
+"textile reference on redcloth":http://redcloth.org/hobix.com/textile/

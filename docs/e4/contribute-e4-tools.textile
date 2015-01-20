@@ -1,0 +1,27 @@
+h1. Contribute E4 Tools source code
+
+p(description). Contribution to E4 Tools codebase explained. 
+
+h2. Intro
+
+Contribution is mainly done by fixing bugzilla bugs and pushing the "resolution" to a git repository. 
+
+There are 4 main steps: 
+# *Select a Bug*: select a bug on using bugzilla and follow the discussion
+# *Prepare the Environment*: Git-clone the source code, solve compilation errors, and run. 
+# *Error reproduction and Bug fix*: reproduce the error, and fix the bug
+# *Contribute*: create a Git-patch or commit with Gerrit / Git.
+ 
+h3. Notes & Prerequisites:
+
+In this article is shown how to contribute to the Eclipse E4 Tooling Project. Different projects have different contribution workflows
+We need to use Git to fetch and push the code. The simple way s to dowbload a version of Eclipse for Committers.
+
+
+h2. Select a Bug
+ 
+Eclipse bugs are listed on "bugzilla web page":https://bugs.eclipse.org/bugs/ .To select all open bugs on Eclipse E4 Tools, we perform an Advanced Search, filtering for bugs in Eclipse > e4 > Tools which status in UNCONFIRMED, NEW, ASSIGNED, REOPENED.
+
+!img/bugzilla-advanced-search-open-bug-e4-tools.png!
+
+"FOLLOW":https://docs.google.com/document/d/1t7xHq1SreFyl0jHalzRxPsKNYVDd9co_ZK70y1yPdeI/

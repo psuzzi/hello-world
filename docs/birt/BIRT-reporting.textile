@@ -19,8 +19,11 @@ With BIRT is also possible to generate report and charts programmatically. But t
 
 h2. Setup BIRT developer's tools
 
-The easy way to work with BIRT developer's tools is to download the latest version of the Eclipse IDE for Java and Report developers. 
+The easy way to work with BIRT developer's tools is to download the latest version of the Eclipse IDE for Java and Report developers.
+ 
 For those who have a custom developent environment, it is better to install the BIRT Framework, from Menu > Install New Software . In this case you'll need to select the Birt Framework from the current Eclipse Update site, or to put manually the update site ULR ("see how":https://wiki.eclipse.org/BIRT_Update_Site_URL)
+
+!img/birt-install-kepler-updatesite.png!
 
 After restarting eclipse, we can test the resport designer, by creating a new report. 
 

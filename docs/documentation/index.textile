@@ -1,0 +1,6 @@
+h1. Documentation Index
+
+This article series is about tools and technologies used for writing documentation.
+
+* textile:textile.textile :  lightweight markup language used to generate valid XHTML. 
+
