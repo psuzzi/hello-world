@@ -1,0 +1,7 @@
+h1. RCP Application
+
+This article explains the basics for Eclipse RCP Applications. 
+
+h2. References
+
+# Eclipse RCP Book - "Ralf Ebert's Book (in German) ":http://www.ralfebert.de/archive/eclipse_rcp/EclipseRCP.pdf
