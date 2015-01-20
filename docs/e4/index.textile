@@ -28,5 +28,10 @@ To edit the part with the visual editor, right click the part, then select Open 
 Create a minimal UI with window builder, and launch again the application
 
 
-Add User interface
-commit on github
+h3. Add User interface
+
+Use window builder to add an editor
+
+h3. commit on github
+
+Quick commit & push
