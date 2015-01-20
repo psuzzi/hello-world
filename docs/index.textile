@@ -1,4 +1,4 @@
-h1. Git Hello World
+h1. Hello, Git Docs!
 
 h2. Document index
 
