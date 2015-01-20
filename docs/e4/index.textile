@@ -20,6 +20,7 @@ h3. Launch product
 Open the e4.test.product, and click on launch an Eclipse application. You'll see an empty shell with the application title. 
 
 h3 edit application UI
+
 Now edit the Application.e4xmi, by adding a Part, directly under the Windows and Dialogs > Controls > Part. 
 Then click on the Class URI link, to launch the wizard for the creation of the part. 
 To edit the part with the visual editor, right click the part, then select Open With > Window Builder. 
