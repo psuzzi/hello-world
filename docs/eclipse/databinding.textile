@@ -1,0 +1,9 @@
+h1. Eclipse Databinding
+
+h2. References: 
+
+See the list of references below: 
+# Jface DataBinding, "main page on eclipse wiki":https://wiki.eclipse.org/JFace_Data_Binding
+# Jface Data Binding Tutorial, "article on vogella.com":http://www.vogella.com/tutorials/EclipseDataBinding/article.html
+# Eclipse Databinding using windoww builder "part 1":http://ancitconsulting.com/tiki-read_article.php?articleId=15 and "part 2":http://www.ancitconsulting.com/tiki-read_article.php?articleId=18
+# Class MultiValidator, "javadoc on Eclipse Luna Help":http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fcore%2Fdatabinding%2Fvalidation%2FMultiValidator.html
