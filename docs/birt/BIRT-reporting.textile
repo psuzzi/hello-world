@@ -1,0 +1,30 @@
+h1. BIRT Reporting
+
+p(keywords). Eclipse, RCP, BIRT, report, reporting, HTML, PDF, open source
+
+p(summary). Birt Introduction: how to setup BIRT developer's tools; how to build HTML and PDF report with BIRT and how to display a report inside an Eclipse E4 RCP Application.
+
+h2. Introduction to BIRT
+
+BIRT is an open source technology platform used to create data visualization and reports that can be embedded into rich client and web applications. 
+
+Open source BIRT has two main components:
+* Visual Report Designer : for creating BIRT designs
+* Runtime component : for generating content that can be deployed at any Java environment
+
+The open source BIRT also includes a _charting engine_ that is fully integrated into the *Visual Report designer*, and it can be used itself to incorporate charts into the applications. 
+BIRT design are saved as XML files, and can access multiple industry standard data soruces at the same time. 
+
+With BIRT is also possible to generate report and charts programmatically. But this is an advanced topic covered by another "article":BIRT-chart-report-programmatically.textile
+
+h2. Setup BIRT developer's tools
+
+The easy way to work with BIRT developer's tools is to download the latest version of the Eclipse IDE for Java and Report developers. 
+For those who have a custom developent environment, it is better to install the BIRT Framework, from Menu > Install New Software . In this case you'll need to select the Birt Framework from the current Eclipse Update site, or to put manually the update site ULR ("see how":https://wiki.eclipse.org/BIRT_Update_Site_URL)
+
+After restarting eclipse, we can test the resport designer, by creating a new report. 
+
+h2. Test BIRT Reporting
+
+To test BIRT reporting we'll need to create a new Report Design and feed it with new data.
+
