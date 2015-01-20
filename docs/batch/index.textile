@@ -1,4 +1,7 @@
+h1. Batch Files
+
 This "script":get-win-os-type-and-programs-folder-for-32bit.bat check if the system  is 32 or 64bit, and gets the program files directory for 32 bit programs. 
 As example :
 * for win 64 bit returns %programfiles(x86)%
 * for win 32 bit returns %programfiles%
+!img/get-win-os-type-and-programs-folder-for-32-bit.png!
