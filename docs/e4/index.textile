@@ -1,8 +1,17 @@
 h1. E4 Application
 
-Download Eclipse e4 for committers - "developer builds":https://eclipse.org/downloads/index-developer.php
-Download E4 tools - "E4 install":https://wiki.eclipse.org/E4/Install
-Download windows builder - "wb downloads":http://eclipse.org/windowbuilder/download.php
-Create E4 project
+This doc explain how to create a simple E4 Application.
+
+h2. Prerequisites
+
+* Download Eclipse e4 for committers - "developer builds":https://eclipse.org/downloads/index-developer.php
+* Download E4 tools - "E4 install":https://wiki.eclipse.org/E4/Install
+* Download windows builder - "wb downloads":http://eclipse.org/windowbuilder/download.php
+
+h3. Create E4 project
+
+Create a new E4 project and name it e4.test 
+@CTRL+N@ > *Eclipse E4 Application Project*. 
+
 Add User interface
 commit on github
