@@ -4,9 +4,16 @@ Simple reference for a simple markup language.
 
 | textile source | result | notes |
 | @h1.@, @h2.@, .. | heading 1, 2, .. | after dot add one space. at the end of the heading add an empty newline|
+| 
+bc. 
+| one | two |
+| three | four |
+
+| a simple table |
 
 
 
 h2. References
+
 "description on wikipedia":http://en.wikipedia.org/wiki/Textile_%28markup_language%29
 "textile reference on redcloth":http://redcloth.org/hobix.com/textile/
