@@ -4,7 +4,7 @@ Simple reference for a simple markup language.
 
 | textile source | result | notes |
 | @h1.@, @h2.@, .. | heading 1, 2, .. | after dot add one space. at the end of the heading add an empty newline|
-| &#124; one &#124; two &#124; | a simple table | can do multiline, escape pipe with <notextile>&#124;</notextile |
+| &#124; one &#124; two &#124; | a simple table | can do multiline, escape pipe with <notextile>&#124;</notextile> |
 
 
 
