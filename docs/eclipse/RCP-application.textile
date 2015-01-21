@@ -1,4 +1,4 @@
-h1. RCP Application
+h1. E4 RCP Application
 
 This article explains the basics for Eclipse RCP Applications. 
 

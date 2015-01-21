@@ -1,0 +1,48 @@
+h1. E4 Common 
+
+
+h2. injection
+
+h3. Event Broker
+
+Getting an IEventBroker :
+
+bc. 
+// 
+IEventBroker eventBroker = eclipseContext.get(IEventBroker.class);
+
+or via dependency injection
+
+bc. 
+// @inject
+IEventBroker eventBroker
+
+h3. listen for e4 perspective change
+
+responding to an event
+
+bc. 
+@Inject @Optional
+void closeHandler(@UIEventTopic(''TOPIC_STRING'') foo.Bar payload) {
+    // Useful work that has access to payload.  The instance of foo.Bar that the event poster placed on the global event bus with the topic ''TOPIC_STRING''
+}
+
+h3. E4 Services
+
+Platform
+Selection
+Model
+Application Model
+Part
+Command and Handler
+
+h3. references
+
+E4 Services - "vogella article":http://www.vogella.com/tutorials/Eclipse4Services/article.html
+E4 Dependency injection - "E4 Wiki article":https://wiki.eclipse.org/Eclipse4/RCP/Dependency_Injection
+E4 Eventing System - "E4 Wiki article":https://wiki.eclipse.org/E4/EAS/Eventing_System
+E4 Event Processing - "E4 Wiki page":https://wiki.eclipse.org/E4/Event_Processing
+E4 Event Model - "E4 Wiki page":https://wiki.eclipse.org/Eclipse4/RCP/Event_Model
+
+
+

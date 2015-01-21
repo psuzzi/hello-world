@@ -1,0 +1,12 @@
+h1. Git
+
+Git is a distributed VCS. 
+
+
+h2. References
+
+# Git - everything is local - "free online eBook":http://git-scm.com/book/en/v2/
+# git official website - "documentation":http://git-scm.com/doc 
+# HelloWorld, 10 minute read - "article on GitHub":https://guides.github.com/activities/hello-world/ 
+# Git tutorial - "article on vogella":http://www.vogella.com/tutorials/Git/article.html
+# GitHub for beginners "part 1":http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1 and "part 2":http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1

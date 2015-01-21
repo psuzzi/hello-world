@@ -1,0 +1,19 @@
+h1. SonarQube Setup and Tuning
+
+SonarQube, formerly Sonar, is an open source platform for continuos inspection of code quality. (see wikipedia:http://en.wikipedia.org/wiki/SonarQube for all the details)
+
+This article will explain:
+* Setup SonarQube for Java projects
+* Tune SonarQube to get meaningful results
+* Setup SonarQube server 
+
+h2. Setup SonarQube for Java projects
+
+h2. Tune SonarQube to get meaningful results
+
+h2. Setup SonarQube server 
+
+
+h2. References
+
+* SonarQube official website - "SonarSource":http://www.sonarsource.com/
