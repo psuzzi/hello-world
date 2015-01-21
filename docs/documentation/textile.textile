@@ -4,8 +4,7 @@ Simple reference for a simple markup language.
 
 | textile source | result | notes |
 | @h1.@, @h2.@, .. | heading 1, 2, .. | after dot add one space. at the end of the heading add an empty newline|
-| &#124#124#124#124#124#124; one &#124#124#124#124#124; two &#124#124#124#124; 
-&#124#124#124; three &#124#124; four &#124; | a simple table | |
+| %BAR% CIAO %BAR% | a simple table | |
 
 
 
