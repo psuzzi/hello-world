@@ -1,4 +1,12 @@
-h1. Textile
+h1. Textile Quick Reference
 
+Simple reference for a simple markup language. 
+
+| textile source | result |
+| @h1.@ | heading 1 |
+
+
+
+h2. References
 "description on wikipedia":http://en.wikipedia.org/wiki/Textile_%28markup_language%29
 "textile reference on redcloth":http://redcloth.org/hobix.com/textile/
