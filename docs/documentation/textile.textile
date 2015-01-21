@@ -2,7 +2,7 @@ h1. Textile Quick Reference
 
 Simple reference for a simple markup language. 
 
-| textile source | result | notes |
+|_. textile source |_. result |_. notes |
 | @h1.@, @h2.@, .. | heading 1, 2, .. | after dot add one space. at the end of the heading add an empty newline|
 | &#124; one &#124; two &#124; | a simple table | can do multiline, escape pipe with & #124; |
 | (myClass). paragraph | paragraph with class | space after the dot |
