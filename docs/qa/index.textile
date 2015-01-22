@@ -1,0 +1,9 @@
+h1. Q&A - Quality Assurance
+
+This docset is about code Quality and Assurance .
+
+h2. sonarqube with eclipse
+
+
+h2. references
+sonar code quality check in Eclipse - "video on vimeo":http://vimeo.com/91781086
