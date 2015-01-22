@@ -4,6 +4,19 @@ This docset is about code Quality and Assurance .
 
 h2. sonarqube with eclipse
 
+Sonar can be integrated in Eclipse to check code quality. 
+
+* install SQ plugin for eclipse 
+* edit sonar server preferences 
+* associate a project to sonar (if maven will be automatically associated), and check the SQ server
+* analyse: R-click > SonarQube > Analyse
+
+SQ - Eclipse provides a lot of help in coding. 
+* view , rules, issues
+* check issues in SQ webpage
+
 
 h2. references
-sonar code quality check in Eclipse - "video on vimeo":http://vimeo.com/91781086
+
+* sonar code quality check in Eclipse - "video on vimeo":http://vimeo.com/91781086
+* check code quality in eclipse - "video on vimeo":http://vimeo.com/91781086
