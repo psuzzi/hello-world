@@ -1,0 +1,34 @@
+h1. software documents
+
+diversi tipi di documenti in uso nel software
+
+* *Software Documentation*: written text that accompanies computer software. It either explains how it operates or how to use it, and may mean different things to people in different roles.
+* * 
+
+h2. Software Documentation
+
+|_. type of doc |_. is responsible to  .. |_. it is used to communicate.. |_. it is practically used |
+| Requirements | descrive what the sw shall do |  what the software is intended to do | as foundation agreement | 
+| Architecture/Design | lay out the general requirements | approaches to development | as reference for developers |
+| Technical | accompany code | various aspects of 
+* End user
+* Marketing
+
+h3. Methodoligies
+
+Literate programming: introduced by D.Knuth 
+
+h2. 
+
+
+
+Scrivere docuemntazione è un processo complesso.
+Per 
+Questa è una breve analisi delle motivazioni, e degli strumenti per ottenere la massima e
+
+complex process
+
+Quando prendo 
+
+draft --> article --> tutorial 
+

@@ -1,0 +1,9 @@
+h1. Git FAQs 
+
+h2. Move a folder in remote repository
+
+I've committed a project in the wrong directory, and I want to mode all the project
+
+h2. References
+
+* "Git How to - moving folders":http://githowto.com/moving_files 

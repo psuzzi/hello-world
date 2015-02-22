@@ -1,0 +1,18 @@
+h1. Eclipse Tricks
+
+This article explains some useful eclipse tricks.
+
+h2. Java Development
+
+Shortcuts: 
+
+|_. shortcut | _. description | sample usage |
+| @ALT + SHIFT + R@ | rename element | place cursor on a field and rename it |
+| @CTRL + SHIFT + R@ | open type | searching for a class or other artifact |
+| @CTRL + SHIFT + T@ | open type | searching for a class |
+
+
+h2. Eclipse RCP Development
+
+Add Eclipse Bundle to the search
+win

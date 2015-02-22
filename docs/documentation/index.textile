@@ -2,5 +2,15 @@ h1. Documentation Index
 
 This article series is about tools and technologies used for writing documentation.
 
+h2. Definitions
+
+* *Node*: 
+* *Reference*: synthetic
+* *Article*: explains how a technology works
+* *Tutorial*: step to step guide to build something concrete
+
+
+h2. References
+
 * "textile":textile.textile :  lightweight markup language used to generate valid XHTML. 
 
