@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_cD2fQKS1EeSUPMWS2pJzbg" elementId="org.eclipse.e4.ide.application" bindingContexts="_cD2fSaS1EeSUPMWS2pJzbg">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_cD2fQaS1EeSUPMWS2pJzbg" label="e4.app.filemanager" width="500" height="400"/>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_cD2fQKS1EeSUPMWS2pJzbg" elementId="org.eclipse.e4.ide.application" bindingContexts="_cD2fSaS1EeSUPMWS2pJzbg">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_cD2fQaS1EeSUPMWS2pJzbg" label="e4.app.filemanager" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_yA4acKS5EeSUPMWS2pJzbg" elementId="e4.app.filemanager.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_yoyH8KS5EeSUPMWS2pJzbg" elementId="e4.app.filemanager.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_CUUXQKS7EeSUPMWS2pJzbg" elementId="e4.app.filemanager.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_DaR5wKS7EeSUPMWS2pJzbg" elementId="e4.app.filemanager.partstack.0" containerData="3000">
+            <children xsi:type="basic:Part" xmi:id="_ETjEEKS7EeSUPMWS2pJzbg" elementId="e4.app.filemanager.part.tree" contributionURI="bundleclass://e4.app.filemanager/e4.app.filemanager.parts.FileTree" label="Tree"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_FvfdoKS7EeSUPMWS2pJzbg" elementId="e4.app.filemanager.partstack.1" containerData="7000">
+            <children xsi:type="basic:Part" xmi:id="_GfZ3oKS7EeSUPMWS2pJzbg" elementId="e4.app.filemanager.part.search" contributionURI="bundleclass://e4.app.filemanager/e4.app.filemanager.parts.SearchPart" label="Search"/>
+            <children xsi:type="basic:Part" xmi:id="_HHmgEKS7EeSUPMWS2pJzbg" elementId="e4.app.filemanager.part.reports" contributionURI="bundleclass://e4.app.filemanager/e4.app.filemanager.parts.ReportPart" label="Reports"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_kQGLIKS5EeSUPMWS2pJzbg" elementId="e4.app.filemanager.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_mKk60KS5EeSUPMWS2pJzbg" elementId="e4.app.filemanager.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_59JtcKS5EeSUPMWS2pJzbg" elementId="e4.app.filemanager.handledmenuitem.openFolder" label="Open Folder" mnemonics="O" command="_KbgWQKS6EeSUPMWS2pJzbg"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_ugyCsKS3EeSUPMWS2pJzbg" elementId="e4.app.filemanager.trimbar.top">
+      <children xsi:type="menu:ToolControl" xmi:id="_FjyEQKS4EeSUPMWS2pJzbg" elementId="e4.app.filemanager.toolcontrol.buttonbar" contributionURI="bundleclass://e4.app.filemanager/e4.app.filemanager.controls.ButtonBarToolControl"/>
+    </trimBars>
+    <trimBars xmi:id="_xdPMwKS3EeSUPMWS2pJzbg" elementId="e4.app.filemanager.trimbar.bottom" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_ESPj4KS4EeSUPMWS2pJzbg" elementId="e4.app.filemanager.toolcontrol.1" contributionURI="bundleclass://e4.app.filemanager/e4.app.filemanager.controls.StatusBarToolControl"/>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_ODphoKS6EeSUPMWS2pJzbg" elementId="e4.app.filemanager.handler.openFolder" contributionURI="bundleclass://e4.app.filemanager/e4.app.filemanager.handlers.OpenFolder" command="_KbgWQKS6EeSUPMWS2pJzbg"/>
   <rootContext xmi:id="_cD2fSaS1EeSUPMWS2pJzbg" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_cD2fSqS1EeSUPMWS2pJzbg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_cD2fS6S1EeSUPMWS2pJzbg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
+  <commands xmi:id="_KbgWQKS6EeSUPMWS2pJzbg" elementId="e4.app.filemanager.command.openFolder" commandName="Open Folder"/>
   <addons xmi:id="_cD2fQqS1EeSUPMWS2pJzbg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_cD2fQ6S1EeSUPMWS2pJzbg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_cD2fRKS1EeSUPMWS2pJzbg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

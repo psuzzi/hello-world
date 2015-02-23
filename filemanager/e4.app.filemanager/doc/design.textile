@@ -1,0 +1,21 @@
+h1. E4 App Filemanager
+Design
+
+h2. UI 
+
+E4 application with 
+* Menu bar
+* Button bar
+* tree
+* main > input
+* main > output
+* statusbar
+
+h3. Statusbar
+
+( "ref":http://www.eclipse.org/forums/index.php/t/367379/ )
+If you want to add a status bar, your best bet is to add a ToolControl to the TrimBar. You would provide a class to instantiate your status bar, and we use the class org.eclipse.jface.action.StatusLineManager to actually render the status line in the 4.2 Workbench.  
+
+Trimbars > Window Trim - Bottom > ToolControl
+
+Use IEventBroker to share the status between MParts. Have the parts publish events and have the status provide a listener to update accordingly.
