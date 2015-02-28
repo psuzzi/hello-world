@@ -1,3 +1,5 @@
 h1. Eclipse Platform
 
 reference:https://wiki.eclipse.org/Platform_UI/How_to_Contribute
+
+"Download eclipse SDK":http://download.eclipse.org/eclipse/downloads/, download the "development tools":http://git.eclipse.org/c/platform/eclipse.platform.ui.git/plain/releng/org.eclipse.ui.releng/platformUiTools.p2f and install the plug-ins. Then get the code for Platform UI
